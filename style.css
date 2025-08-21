@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    /* display: none; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    background: linear-gradient(to left, #801111, #162b73);
+    color: #f3f3f3;
+}
+
+.container {
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#login-form {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input {
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    border: 1.10px solid black;
+    outline: none;
+    width: 100%;
+    /* background-color: rgba(231, 231, 231, 0.7); */
+}
+
+.sbmt-btn {
+    margin-top: 5px;
+    background-color: #1394eb;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 2.5px;
+    flex-direction: row;
+    width: 125px;
+    cursor: pointer;
+}
+
+#btns {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.frgt-pas {
+    text-align: center;
+    color-scheme: dark;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    background: linear-gradient(to left, rgba(232, 220, 253, 0.77), rgba(97, 27, 218, 0.77));
+    color: transparent;
+    background-clip: text;
+}
+
+#headingl {
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(28, 28, 29, 0.77), rgba(1, 0, 3, 0.77));
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    color-scheme: dark;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+}
+
+#headingr {
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(28, 28, 29, 0.77), rgba(1, 0, 3, 0.77));
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    color-scheme: dark;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+}
+
+#headingf {
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(28, 28, 29, 0.77), rgba(1, 0, 3, 0.77));
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    color-scheme: dark;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+}
+
+a:hover {
+    background: linear-gradient(to right, #2b9e76, #b08d11);
+    color: transparent;
+    background-clip: text;
+}
+
+.form-input::placeholder {
+    color: #61615f;
+}
+
+.form-label {
+    background: linear-gradient(to left, rgba(232, 220, 253, 0.77), rgba(97, 27, 218, 0.77));
+    color: transparent;
+    background-clip: text;
+}
+
+#selrol {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.lwrprt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.alr-sgned {
+    text-align: center;
+}
+
+/* #sgnup {
+    background: linear-gradient(to left, rgba(232, 220, 253, 0.77), rgba(97, 27, 218, 0.77));
+    color: transparent;
+    background-clip: text;
+} */
+
+#register-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#register-form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.form-box {
+    display: none;
+}
+
+.form-box.active {
+    display: block;
+}
+
+#frgt-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#frgt-form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.error-message {
+    padding: 12px;
+    background: #f8d7da;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #a42834;
+    text-align: center;
+    margin-bottom: 20px;
+}
